@@ -1,0 +1,13 @@
+.MainContainer {
+    margin-bottom: 70px;
+    .Title {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 57px;
+        text-align: center;
+    }
+    .Container {
+        display: grid;
+        gap: 20px;
+    }
+}

@@ -1,11 +1,17 @@
+import { useSelector } from 'react-redux';
+
 import { useActions } from '../../../hooks/UseActions';
+
 import styles from './GamesCardItem.module.scss';
 
 const GamesCardItem = ({id, img, game}) => {
   const {gamesSelected} = useActions()
+  const {selectedGame} = useSelector(state => state.games)
   return (
     <button 
-     className={styles.Container}
+     className={selectedGame.id === id 
+                ? styles.Container + ' ' + styles.Active 
+                : styles.Container}
      onClick={() => {
       gamesSelected(id)
      }}>
