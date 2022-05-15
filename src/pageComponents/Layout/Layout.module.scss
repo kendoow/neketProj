@@ -1,0 +1,97 @@
+.Container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
+  grid-template-rows: 100px auto 40px;
+
+  .Header {
+    margin: 0 calc(50% - 700px);
+
+    grid-area: header;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #994ff3;
+    .Logo {
+        cursor: pointer;
+        transition: all 0.2s; 
+        &:hover{
+            transition: all 0.2s;
+            transform: scale(1.1);
+        }
+    }
+    .BlockBtn {
+      display: grid;
+      grid-template-columns: repeat(3, 160px);
+      gap: 50px;
+      justify-content: space-between;
+      .Btn {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        font-weight: 500;
+        height: 40px;
+        font-size: 20px;
+        line-height: 22px;
+        color: #994ff3;
+        background-color: #fff;
+        border-radius: 5px;
+        border: 2px solid #994ff3;
+
+        transition: all 0.3s ease-in-out;
+      }
+      .Btn:hover {
+        color: #fff;
+        background-color: #894fcf;
+      }
+    }
+    .BlockLogin {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 20px;
+      .Login {
+        width: 100px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: 40px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        color: #894fcf;
+        border-radius: 5px;
+        border: 2px solid #894fcf;
+        transition: all 0.3s ease-in-out;
+      }
+      .Login:hover {
+        color: #fff;
+        background-color: #894fcf;
+      }
+      input {
+        padding: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid #f2eef5;
+      }
+    }
+  }
+  .Body {
+    grid-area: body;
+    padding: 0 calc(50% - 700px);
+  }
+  .Footer {
+    grid-area: footer;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    background-color: #181818;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+  }
+}

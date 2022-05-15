@@ -1,0 +1,9 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}

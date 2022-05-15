@@ -1,0 +1,60 @@
+.Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    .Block {
+        grid-column: 2 / 3;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        border-radius: 6px;
+        padding: 20px 50px;
+        .Title {
+            text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #181818;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #994ff3;
+        }
+        .Date, .Description, .Category {
+            margin-top: 10px;
+            margin-bottom: 7px;
+            font-size: 20px;
+            line-height: 24px;
+            
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+    .ContainerRequirements {
+        margin-top: 50px;
+        padding: 25px;
+        border: 1px solid #E5E5E5;
+        grid-column: 1 / 3;
+        display: grid;
+        grid-template-columns: 1fr 2px 1fr;
+        gap: 0 70px;
+        .Title {
+            grid-column: 1 / 4;
+            justify-self: center;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 20px;
+        }
+        .Line {
+            background-color: #181818;
+        }
+        .BlockRequirements {
+            padding: 15px 0;
+            .Text {
+                font-size: 20px;
+                line-height: 24px;
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

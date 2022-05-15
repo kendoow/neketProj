@@ -1,0 +1,25 @@
+.container {
+  cursor: pointer;
+  width: 800px;
+  border: 1px solid #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding-bottom: 60px;
+  .text {
+  }
+  .title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    padding-bottom: 115px;
+  }
+  .date {
+    font-weight: bold;
+    span {
+      font-weight: normal;
+    }
+  }
+}
