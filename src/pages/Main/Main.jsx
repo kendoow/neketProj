@@ -8,10 +8,11 @@ import NewsItem from "../../pageComponents/NewsItem/NewsItem";
 import styles from "./Main.module.scss";
 
 import icon from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   const [search, setSearch] = useState('')
-
+  const { isAuth } = useSelector((state) => state.auth);
   const {mainFetch, mainFilter} = useActions()
   const {news, filterNews} = useSelector(state => state.main)
 
@@ -45,12 +46,16 @@ const Main = () => {
                      title={item.title}
                      date={item.date}
                      tags={item.tags}
+                     descr = {item.description}
                      img={icon}/>
                   ))
                   : null}
           </div>
         </div>
-        <div className={styles.newsHeader}><h3>Новости</h3></div>
+        <div className={styles.newsHeader}>
+          <h3>Новости</h3>
+          {isAuth ? <Link className={styles.unpublished} to={'/unpulishednews'}>Неопубликованные новости</Link> : <></>}
+          </div>
         <div className={styles.NewsItems}>
           {filterNews.common 
               ? filterNews.common.map(item => (
@@ -59,6 +64,7 @@ const Main = () => {
                  title={item.title}
                  date={item.date}
                  tags={item.tags}
+                 descr = {item.description}
                  img={icon}/>
               ))
               : null}

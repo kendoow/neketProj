@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import styles from "./Layout.module.scss";
 import logo from "../../assets/logo.svg";
+import { useDispatch, useSelector } from "react-redux";
+import { AuthActionCreators } from "../../redux/actionCreators/Auth/AuthActionCreator";
+
 const Layout = ({ children }) => {
+  const dispatch = useDispatch();
+  const { isAuth } = useSelector((state) => state.auth);
+
+  const logout = () => {
+    dispatch(AuthActionCreators.logout());
+  };
+
   return (
     <div className={styles.Container}>
       <div className={styles.Header}>
@@ -20,11 +30,15 @@ const Layout = ({ children }) => {
           </Link>
         </div>
         <div className={styles.BlockLogin}>
-         
-
-          <Link to="/singin" className={styles.Login}>
-            Войти
-          </Link>
+          {isAuth ? (
+            <button onClick={logout} className={styles.Login}>
+              Выйти
+            </button>
+          ) : (
+            <Link to="/singin" className={styles.Login}>
+              Войти
+            </Link>
+          )}
         </div>
       </div>
       <div className={styles.Body}>{children}</div>

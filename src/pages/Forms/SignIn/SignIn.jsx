@@ -1,14 +1,26 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 
 import useInput from "../../../hooks/UseInput";
+import { AuthActionCreators } from "../../../redux/actionCreators/Auth/AuthActionCreator";
 import styles from "./SignIn.module.scss";
 const SignIn = () => {
+  const dispatch = useDispatch();
   const [showPassword, setShowPassword] = useState(false); // скрыть показать пароль
   const registrationValid = useInput("", { isEmpty: true, minLength: 3 }); // валидатор логина
   const passwordValid = useInput("", { isEmpty: true, minLength: 5 }); // валидатор пароля
   const nameValid = useInput("", { isEmpty: true, minLength: 2 }); // валидатор Имени
-  
+  let navigate = useNavigate();
+
+
+  const submit = () => {
+    dispatch(
+      AuthActionCreators.signin(registrationValid.value, passwordValid.value)
+    );
+    navigate("/", { replace: true });
+  };
+
 
   return (
     <>
@@ -65,8 +77,6 @@ const SignIn = () => {
                 placeholder="Пароль"
               />
 
-              
-
               <label className={styles.passwordCheckboxWrapper}>
                 <input
                   onClick={() => setShowPassword(!showPassword)}
@@ -81,12 +91,12 @@ const SignIn = () => {
           </div>
 
           <button
-            disabled= {
+            disabled={
               !registrationValid.inputVaild ||
               !passwordValid.inputVaild ||
-              !nameValid.inputVaild 
-             
+              !nameValid.inputVaild
             }
+            onClick = {submit}
             type="submit"
           >
             Создать аккаунт

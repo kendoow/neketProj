@@ -13,6 +13,14 @@
             input {
                 font-size: 26px;
             }
+            .unpublished{
+                font-size: 24px;
+                color: #000;transition: all 0.2s;
+                &:hover{
+                    transition: all 0.2s;
+                    transform: scale(1.05);
+                }
+            }
         }
         
     }

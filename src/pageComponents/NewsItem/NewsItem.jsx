@@ -4,7 +4,7 @@ import Modal from "../../components/Modal/Modal";
 
 import styles from "./NewsItem.module.scss";
 
-const NewsItem = ({ title, date, tags, img }) => {
+const NewsItem = ({ title, date, tags, img, descr }) => {
   const [modalActive, setModalActive] = useState(false);
 
   return (
@@ -16,8 +16,10 @@ const NewsItem = ({ title, date, tags, img }) => {
             Дата публикации: <span>{date}</span>
           </div>
           <div className={styles.Tags}>
-            {tags.split(' ').map((item, index) => (
-              <div key={index} className={styles.TagItem}>{item}</div>
+            {tags.split(" ").map((item, index) => (
+              <div key={index} className={styles.TagItem}>
+                {item}
+              </div>
             ))}
           </div>
         </div>
@@ -26,7 +28,14 @@ const NewsItem = ({ title, date, tags, img }) => {
         </div>
       </div>
       <Modal active={modalActive} setActive={setModalActive}>
-        <div className="">12312313</div>
+        <div className={styles.modal}>
+          <div className={styles.title}>{title}</div>
+          <img src={img} alt="icon" />
+          <div className={styles.descr}>{descr}</div>
+          <div className={styles.date}>
+            Дата публикации: <span>{date}</span>
+          </div>
+        </div>
       </Modal>
     </>
   );

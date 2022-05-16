@@ -1,13 +1,22 @@
 import { useState } from "react";
 
-
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 import useInput from "../../../hooks/UseInput";
+import { AuthActionCreators } from "../../../redux/actionCreators/Auth/AuthActionCreator";
 import styles from './Login.module.scss';
 const Login = () => {
+  const dispatch = useDispatch()
   const [showPassword, setShowPassword] = useState(false); // скрыть показать пароль
   const loginValid = useInput("", { isEmpty: true, minLength: 3 }); // валидатор логина
   const passwordValid = useInput("", { isEmpty: true, minLength: 5 }); // валидатор пароля
+  let navigate = useNavigate();
+  const submit = () => {
+    dispatch(AuthActionCreators.login(loginValid.value,passwordValid.value))
+    navigate("/", { replace: true });
+     
+  }
 
   return (
     <>
@@ -62,6 +71,7 @@ const Login = () => {
               <button
                 disabled={!loginValid.inputVaild || !passwordValid.inputVaild}
                 type="submit"
+                onClick={submit}
               >
                 Войти
               </button>

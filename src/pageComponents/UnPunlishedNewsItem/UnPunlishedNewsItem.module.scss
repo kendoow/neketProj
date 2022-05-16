@@ -1,0 +1,103 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.Inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.AddPostForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    padding: 0 calc(50% - 500px);
+    &Text{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    &Container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    button{
+        -webkit-appearance: none;
+        border:none;
+        cursor: pointer;
+    }
+    img{
+        padding-right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+    &Input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    &Image{
+      height: 60px;
+    }
+    &Descr{
+      height: 120px;
+    }
+    &Button{
+        background: #8fb38e;
+        border-radius: 10px;
+        font-size: 24px;
+        padding: 20px 60px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: #fff;
+        margin-bottom: 20px;
+        transition: all 0.2s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        &:hover {
+          transition: all 0.2s;
+          transform: scale(1.05);
+        }
+        &:disabled {
+          transition: all 0.2s;
+          background-color: rgb(173, 173, 173);
+          &:hover {
+            transition: all 0.2s;
+            background-color: rgb(114, 114, 114);
+            transform: scale(1);
+          }
+        }
+    }
+}
+textarea{
+    outline: none;
+    font-size: 24px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 300px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    font-family: 'Rubik', sans-serif;
+    &::placeholder {
+        font-size: 20px;
+      } 
+}
+.error{
+    color: red;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .icons{
+      display: flex;
+      justify-content: space-between;
+     padding-left: 60px;
+     padding-right: 60px;
+      align-items: center;
+  }

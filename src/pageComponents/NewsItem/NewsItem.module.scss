@@ -22,16 +22,21 @@
       border-radius: 3px;
     }
   }
-  .title {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 38px;
-    padding-bottom: 115px;
-  }
+  
   .date {
     font-weight: bold;
     span {
       font-weight: normal;
     }
   }
+}
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 115px;
+}
+.descr{
+  font-size: 20px;
+  padding-bottom: 30px;
 }
