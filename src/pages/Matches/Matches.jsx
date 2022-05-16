@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useSelector } from "react-redux";
 import { useActions } from "../../hooks/UseActions";
 
 import MatchesItem from "../../pageComponents/MatchesItem/MatchesItem";
@@ -6,7 +7,6 @@ import MatchesItem from "../../pageComponents/MatchesItem/MatchesItem";
 import Layout from "../../pageComponents/Layout/Layout";
 
 import styles from "./Matches.module.scss";
-import { useSelector } from "react-redux";
 
 
 const Matches = () => {

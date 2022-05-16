@@ -1,4 +1,34 @@
 {
+    "news": {
+        "common": [
+            {
+                "id": "1",
+                "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
+                "date": "5 марта 2013",
+                "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO"
+            },
+            {
+                "id": "2",
+                "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
+                "date": "5 марта 2013",
+                "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO"
+            },
+            {
+                "id": "3",
+                "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
+                "date": "5 марта 2013",
+                "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO"
+            }
+        ],
+        "recommended": [
+            {
+                "id": "1",
+                "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
+                "date": "5 марта 2013",
+                "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO"
+            }
+        ]
+    },
     "matches": {
         "upcoming": [
             {

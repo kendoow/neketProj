@@ -1,6 +1,9 @@
 import { useState } from "react";
-import styles from "./NewsItem.module.scss";
+
 import Modal from "../../components/Modal/Modal";
+
+import styles from "./NewsItem.module.scss";
+
 const NewsItem = ({ title, date, tags, img }) => {
   const [modalActive, setModalActive] = useState(false);
 
@@ -12,7 +15,11 @@ const NewsItem = ({ title, date, tags, img }) => {
           <div className={styles.date}>
             Дата публикации: <span>{date}</span>
           </div>
-          <div className={styles.tags}>{tags}</div>
+          <div className={styles.Tags}>
+            {tags.split(' ').map((item, index) => (
+              <div key={index} className={styles.TagItem}>{item}</div>
+            ))}
+          </div>
         </div>
         <div className={styles.img}>
           <img src={img} alt="icon" />

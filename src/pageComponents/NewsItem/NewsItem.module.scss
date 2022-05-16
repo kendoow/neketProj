@@ -1,14 +1,26 @@
 .container {
   cursor: pointer;
-  width: 800px;
   border: 1px solid #000;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  padding-bottom: 60px;
+  
   .text {
+
+  }
+  .Tags {
+    margin-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    gap: 10px;
+    .TagItem {
+      padding: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.7);
+      border-radius: 3px;
+    }
   }
   .title {
     font-weight: 600;
