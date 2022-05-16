@@ -1,13 +1,37 @@
 .MainContainer {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
+  .Title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .BlockTitle {
+    margin: 0 calc(50% - 600px);
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    align-items: center;
     .Title {
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 57px;
-        text-align: center;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 57px;
     }
-    .Container {
-        display: grid;
-        gap: 20px;
+    .Btn {
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+      color: #181818;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1);
+      }
     }
+  }
+}
+
+.Container {
+  display: grid;
+  gap: 20px;
 }

@@ -1,6 +1,6 @@
 import styles from './MatchesItem.module.scss';
 
-import teamImg from '../../assets/Matches/team.svg';
+import teamImg from '../../../assets/Matches/team.svg';
 
 const MatchesItem = ({id,
                       title,
@@ -9,7 +9,8 @@ const MatchesItem = ({id,
                       check, 
                       time, 
                       tournament, 
-                      timeLeft}) => {
+                      timeLeft,
+                    }) => {
   return (
     <div className={styles.Container}>
         <div className={styles.Title}>{title} - {id}</div>

@@ -1,0 +1,19 @@
+.Container {
+    margin: 0 calc(50% - 700px);
+    display: grid;
+    gap: 50px;
+
+    .Btn {
+        padding: 20px;
+        background-color: #fff;
+        color: #181818;
+        font-size: 32px;
+        line-height: 38px;
+        justify-self: center;
+        margin-top: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+    .Btn:hover {
+        transform: scale(1.1)
+    }
+}

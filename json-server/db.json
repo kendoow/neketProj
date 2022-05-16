@@ -1,113 +1,97 @@
 {
-  "news": {
-    "common": [
-      {
-        "id": "1",
-        "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
-        "date": "5 марта 2013",
-        "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO",
-        "description": "Турнирный оператор PGL сообщил о том что российские клубы Gambit и Virtus Pro не смогут принять участие в RMR турнирах и PGL Antwerp Major 2022. Самим игрокам позволено участвовать на турнирах RMR-серии и мейджоре под нейтральным тегом и флагом"
-      },
-      {
-        "id": "2",
-        "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
-        "date": "5 марта 2013",
-        "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO",
-        "description": "Турнирный оператор PGL сообщил о том что российские клубы Gambit и Virtus Pro не смогут принять участие в RMR турнирах и PGL Antwerp Major 2022. Самим игрокам позволено участвовать на турнирах RMR-серии и мейджоре под нейтральным тегом и флагом"
-      },
-      {
-        "id": "3",
-        "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
-        "date": "5 марта 2013",
-        "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO",
-        "description": "Турнирный оператор PGL сообщил о том что российские клубы Gambit и Virtus Pro не смогут принять участие в RMR турнирах и PGL Antwerp Major 2022. Самим игрокам позволено участвовать на турнирах RMR-серии и мейджоре под нейтральным тегом и флагом"
-      }
-    ],
-    "recommended": [
-      {
-        "id": "1",
-        "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
-        "date": "5 марта 2013",
-        "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO",
-        "description": "Турнирный оператор PGL сообщил о том что российские клубы Gambit и Virtus Pro не смогут принять участие в RMR турнирах и PGL Antwerp Major 2022. Самим игрокам позволено участвовать на турнирах RMR-серии и мейджоре под нейтральным тегом и флагом"
-      }
-    ],
-    "unpublished": [
-        {
-            "id": "1",
-            "title": "Организация GAMBIT и VIRTUS.RPO ЗАПРЕЩЕНЫ на PGL RMRS и MAJOR",
-            "date": "5 марта 2013",
-            "tags": "CSGO Киберспорт GAMBIT VIRTUS.PRO",
-            "description": "Турнирный оператор PGL сообщил о том что российские клубы Gambit и Virtus Pro не смогут принять участие в RMR турнирах и PGL Antwerp Major 2022. Самим игрокам позволено участвовать на турнирах RMR-серии и мейджоре под нейтральным тегом и флагом"
-          }
-    ]
-  },
-  "matches": {
-    "upcoming": [
-      {
-        "id": "1",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "Live"
-      },
-      {
-        "id": "2",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "Live"
-      },
-      {
-        "id": "3",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "Live"
-      }
-    ],
-    "passing": [
-      {
-        "id": "1",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "1h:3m:10s"
-      },
-      {
-        "id": "2",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "15h:3m:14s"
-      },
-      {
-        "id": "3",
-        "title": "CS:GO / Четверг  / 15.05.2022",
-        "team1": "Natus Vincere",
-        "team2": "Natus Vincere",
-        "check": "1:2",
-        "time": "12:00",
-        "tournament": "Fragleague Season 8",
-        "timeLeft": "21h:6m:14s"
-      }
-    ]
-  },
+  "news": [
+    {
+      "id": 1,
+      "tags": "11 111",
+      "title": "123123",
+      "description": "123122",
+      "publishedAt": "May 17, 2022"
+    },
+    {
+      "tags": "новость 2",
+      "title": "новость 2",
+      "description": "новость 2",
+      "type": "reccomended",
+      "date": "May 16, 2022",
+      "id": 2
+    },
+    {
+      "tags": "123",
+      "title": "123",
+      "description": "123",
+      "type": "reccomended",
+      "date": "May 16, 2022",
+      "id": 3
+    }
+  ],
+  "matches": [
+    {
+      "id": "1",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincer123",
+      "check": "1:2123",
+      "time": "12:00123",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "Live",
+      "type": "passing"
+    },
+    {
+      "id": "3",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "Live",
+      "type": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "1h:3m:10s",
+      "type": "passing"
+    },
+    {
+      "id": "5",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "15h:3m:14s",
+      "type": "passing"
+    },
+    {
+      "id": "6",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "21h:6m:14s",
+      "type": "passing"
+    },
+    {
+      "id": "cImx8gl",
+      "title": "123",
+      "team1": "123",
+      "team2": "123",
+      "check": "123",
+      "time": "123",
+      "tournament": "1231",
+      "timeLeft": "123",
+      "type": "passing"
+    }
+  ],
   "games": [
     {
       "id": "1",
@@ -240,6 +224,5 @@
       "password": "Moder",
       "type": "Moder"
     }
-
   ]
 }

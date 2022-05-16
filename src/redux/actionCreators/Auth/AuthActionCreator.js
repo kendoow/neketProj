@@ -17,6 +17,10 @@ export const AuthActionCreators = {
     type: "SET_ERROR",
     payload,
   }),
+  setUserType: (payload) => ({
+    type: "SET_USER_TYPE",
+    payload,
+  }),
   signin: (login, password) => async (dispatch) => {
     try {
       let item = {login, password}
@@ -24,7 +28,7 @@ export const AuthActionCreators = {
         "http://localhost:8000/users",
         item
       );
-      console.log(newUser)
+      
       localStorage.setItem("auth", "true");
       localStorage.setItem("username", login);
       dispatch(AuthActionCreators.setUser(newUser)); // передаю пользователя в стейт
@@ -39,18 +43,20 @@ export const AuthActionCreators = {
     try {
       dispatch(AuthActionCreators.setIsLoading(true));
       const response = await axios.get("http://localhost:8000/users");
+      
       const LoggedUsers = response.data.find(
         (user) => user.login === login && user.password === password
       );
-      console.log(LoggedUsers);
+      const userType = response.data.filter(i => i.password === password && i.login === login)[0].type
+      
       if (LoggedUsers) {
         dispatch(AuthActionCreators.setError(""));
 
         localStorage.setItem("auth", "true");
-        localStorage.setItem("username", LoggedUsers.username);
+        localStorage.setItem('userType', userType)
         dispatch(AuthActionCreators.setUser(LoggedUsers)); // передаю пользователя в стейт
         dispatch(AuthActionCreators.setIsLoading(false));
-
+        dispatch(AuthActionCreators.setUserType(userType))
         dispatch(AuthActionCreators.setIsAuth(true)); // лоинг пройден 
       } else {
         dispatch(AuthActionCreators.setError("Некорректный логин или пароль"));

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 
 import useInput from "../../../hooks/UseInput";
@@ -7,12 +7,12 @@ import { AuthActionCreators } from "../../../redux/actionCreators/Auth/AuthActio
 import styles from "./SignIn.module.scss";
 const SignIn = () => {
   const dispatch = useDispatch();
+
   const [showPassword, setShowPassword] = useState(false); // скрыть показать пароль
   const registrationValid = useInput("", { isEmpty: true, minLength: 3 }); // валидатор логина
   const passwordValid = useInput("", { isEmpty: true, minLength: 5 }); // валидатор пароля
   const nameValid = useInput("", { isEmpty: true, minLength: 2 }); // валидатор Имени
   let navigate = useNavigate();
-
 
   const submit = () => {
     dispatch(
@@ -20,8 +20,7 @@ const SignIn = () => {
     );
     navigate("/", { replace: true });
   };
-
-
+  
   return (
     <>
       <div className={styles.registration}>
@@ -96,7 +95,7 @@ const SignIn = () => {
               !passwordValid.inputVaild ||
               !nameValid.inputVaild
             }
-            onClick = {submit}
+            onClick={submit}
             type="submit"
           >
             Создать аккаунт

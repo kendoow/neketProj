@@ -10,7 +10,7 @@ export const MAIN_FETCH = 'MAIN_FETCH';
 export const MAIN_FETCH_SUCCESS = 'MAIN_FETCH_SUCCESS'; 
 export const MAIN_FETCH_ERROR = 'MAIN_FETCH_ERROR';
 export const MAIN_FILTER = 'MAIN_FILTER';
-export const MAIN_UNPUBLISHED_FETCH  = 'MAIN_UNPUBLISHED_FETCH'
+export const MAIN_UNPUBLISHED_SELECTED  = 'MAIN_UNPUBLISHED_SELECTED'
 
 const mainReducer = (state = initialState, action) => {
     switch(action.type) {
@@ -22,7 +22,7 @@ const mainReducer = (state = initialState, action) => {
             return {...state, loading: false, error: action.payload}
         case MAIN_FILTER:
             return {...state, filterNews: action.payload}
-        case  MAIN_UNPUBLISHED_FETCH:
+        case MAIN_UNPUBLISHED_SELECTED:
             return {...state, loading: false, unpublishedSelected: action.payload}
         default:
             return state;

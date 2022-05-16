@@ -1,34 +1,36 @@
-import styles from "./UnPunlishedNewsItem.module.scss";
-import editIcon from "../../assets/icons/editIcon.svg";
-import deleteIcon from "../../assets/icons/deleteIcon.png";
-import aproveIcon from "../../assets/icons/aproveIcon.svg";
-import { useSelector } from "react-redux";
-import useInput from "../../hooks/UseInput";
-import { useActions } from "../../hooks/UseActions";
 import moment from "moment";
+import { Link } from 'react-router-dom';
 
-const UnPunlishedNewsItem = ({}) => {
+import { useSelector } from "react-redux";
+import useInput from "../../../hooks/UseInput";
+import { useActions } from "../../../hooks/UseActions";
+
+import styles from './UnPunlishedEdit.module.scss'
+
+const UnPunlishedEdit = () => {
   const { unpublishedSelected } = useSelector((state) => state.main);
-  const { mainFetch, EditUnpubilshedItem } = useActions();
+  const { mainEdit } = useActions();
   const descriptionValid = useInput(unpublishedSelected.description, {
     isEmpty: true,
   });
+  
   const tagsValid = useInput(unpublishedSelected.tags, { isEmpty: true });
   const titleValid = useInput(unpublishedSelected.title, { isEmpty: true });
 
   const GetTime = () => {
-    moment().format("YYYY MM DD"); // получаю текущую дату для поста
+    return moment().format('ll');; // получаю текущую дату для поста
   };
-
+  
   const EditPost = () => {
     const post = {
       id: unpublishedSelected.id,
-      tags: [tagsValid.value],
+      tags: tagsValid.value,
       title: titleValid.value,
       description: descriptionValid.value,
       publishedAt: GetTime(),
     };
-    EditUnpubilshedItem(post); // отправляю изменения на сервер(при клике на кнопку)
+    console.log(post)
+    mainEdit(post); // отправляю изменения на сервер(при клике на кнопку)
   };
 
   const isValid =
@@ -36,17 +38,15 @@ const UnPunlishedNewsItem = ({}) => {
 
   return (
     <>
+    
       <div className={styles.container}>
-        <div className={styles.icons}>
-          <img src={editIcon} alt="icon" />
-          <img src={deleteIcon} alt="icon" />
-          <img src={aproveIcon} alt="icon" />
-        </div>
+      <div className={styles.title}>Редактирование постов</div>
 
         <div className={styles.Inputs}>
           {titleValid.isDirty && titleValid.isEmpty && (
             <div className={styles.error}>Поле не может быть пустым</div>
           )}
+          <div className={styles.addText}>Заголовок</div>
           <input
             type="text"
             placeholder="Заголовок"
@@ -58,6 +58,7 @@ const UnPunlishedNewsItem = ({}) => {
           {descriptionValid.isDirty && descriptionValid.isEmpty && (
             <div className={styles.error}>Поле не может быть пустым</div>
           )}
+          <div className={styles.addText}>Описание</div>  
           <textarea
             type="text"
             placeholder="Описание"
@@ -69,6 +70,7 @@ const UnPunlishedNewsItem = ({}) => {
           {tagsValid.isDirty && tagsValid.isEmpty && (
             <div className={styles.error}>Поле не может быть пустым</div>
           )}
+          <div className={styles.addText}>Теги</div>
           <input
             type="text"
             placeholder="Теги"
@@ -77,6 +79,7 @@ const UnPunlishedNewsItem = ({}) => {
             onBlur={(e) => tagsValid.onBlur(e)}
             value={tagsValid.value}
           />
+          <Link to = '/'>
           <button
             disabled={isValid}
             onClick={() => EditPost()}
@@ -84,10 +87,11 @@ const UnPunlishedNewsItem = ({}) => {
           >
             Отредактировать пост
           </button>
+          </Link>
         </div>
       </div>
     </>
   );
 };
 
-export default UnPunlishedNewsItem;
+export default UnPunlishedEdit;

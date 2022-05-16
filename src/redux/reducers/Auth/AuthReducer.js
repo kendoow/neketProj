@@ -2,7 +2,8 @@ const initialState = {
     isAuth: false,
     error: "",
     isLoading: false,
-    user:{}
+    type: undefined,
+    user: {}
   };
   
   export default function authReducer(state = initialState, action) {
@@ -23,9 +24,12 @@ const initialState = {
         return {
           ...state,
           isLoading: action.payload,
+          type: undefined,
         };
       case "SET_USER":
         return { ...state, user: action.payload };
+      case "SET_USER_TYPE":
+        return {...state, type: action.payload};
       default:
         return state;
     }
