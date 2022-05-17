@@ -77,6 +77,7 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Заголовок</div>
           <input
             type="text"
             placeholder="Заголовок"
@@ -94,6 +95,7 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Команда 1</div>
           <input
             type="text"
             placeholder="Команда 1"
@@ -111,6 +113,7 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Команда 2</div>
           <input
             type="text"
             placeholder="Команда 2"
@@ -128,6 +131,7 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Счет</div>
           <input
             type="text"
             placeholder="Счет"
@@ -145,9 +149,10 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Время начала</div>
           <input
             type="text"
-            placeholder="Время"
+            placeholder="Время начала"
             className={styles.AddPostFormTags}
             onChange={(e) => timeValid.onChange(e)}
             onBlur={(e) => timeValid.onBlur(e)}
@@ -162,9 +167,10 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Название турнира</div>
           <input
             type="text"
-            placeholder="Теги"
+            placeholder="Название турнира"
             className={styles.AddPostFormTags}
             onChange={(e) => tournamentValid.onChange(e)}
             onBlur={(e) => tournamentValid.onBlur(e)}
@@ -179,20 +185,21 @@ const MacthesEditItem = () => {
               Рекомендуемая длина поля - 5 или больше
             </div>
           )}
+          <div className={styles.Title}>Сколько идет матч</div>
           <input
             type="text"
-            placeholder="Теги"
+            placeholder="Время - сколько идет матч"
             className={styles.AddPostFormTags}
             onChange={(e) => timeLeftValid.onChange(e)}
             onBlur={(e) => timeLeftValid.onBlur(e)}
             value={timeLeftValid.value}
           />
 
-          <Link to="/matches">
+          <Link to="/matches" className={styles.AddPostFormButton}>
             <button
               disabled={isValid}
               onClick={() => EditMatch()}
-              className={styles.AddPostFormButton}
+              className={styles.Btn}
             >
               Отредактировать матч
             </button>

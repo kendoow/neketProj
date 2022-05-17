@@ -13,7 +13,7 @@ const MatchesItem = ({id,
                       tournament, 
                       timeLeft,
                     }) => {
-  
+  // Таймер
   const [Time, setTime] = useState(+timeLeft)
   const LeftTime = {
     h: Math.floor(Time / (3600)),
@@ -42,9 +42,9 @@ const MatchesItem = ({id,
             <div className={styles.DateText}>{tournament}</div>
           </div>
           <div className={styles.Сheck}>{check}</div>
-          <div className={timeLeft !== 'Live' 
-                                   ? styles.TimeLeft  
-                                   : styles.Time}>{LeftTime.h}h:{LeftTime.m}:m{LeftTime.s}:s</div>
+          {timeLeft !== 'Live' 
+                    ? <div className={styles.TimeLeft }>{LeftTime.h}h:{LeftTime.m}:m{LeftTime.s}:s</div> 
+                    : <div className={styles.Time}>{timeLeft}</div>}
         </div>
         <div className={styles.BlockTeam}>
           <img src={teamImg} alt="" />

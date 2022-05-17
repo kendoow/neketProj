@@ -8,14 +8,23 @@
     flex-direction: column;
     .title {
       font-size: 32px;
-      padding-bottom: 50px;
+      font-weight: 600;
+      margin-bottom: 20px;
     }
   }
   .Inputs {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    gap: 0 30px;
+    justify-items: center;
+
+    .Title {
+      justify-self: flex-start;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 30px;
+    }
   }
   .AddPostForm {
     margin-top: 20px;
@@ -56,28 +65,35 @@
       height: 120px;
     }
     &Button {
-      background: #8fb38e;
-      border-radius: 10px;
-      font-size: 24px;
-      padding: 20px 60px;
+      margin-top: 15px;
+      grid-column: 1 / 3;
+      justify-self: center;
       cursor: pointer;
-      border: none;
-      outline: none;
-      color: #fff;
       margin-bottom: 20px;
-      transition: all 0.2s;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-      &:hover {
+
+      .Btn {
+        font-weight: 500;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: #8fb38e;
+        border-radius: 10px;
+        font-size: 24px;
+        padding: 20px 60px;
         transition: all 0.2s;
-        transform: scale(1.05);
-      }
-      &:disabled {
-        transition: all 0.2s;
-        background-color: rgb(173, 173, 173);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
         &:hover {
           transition: all 0.2s;
-          background-color: rgb(114, 114, 114);
-          transform: scale(1);
+          transform: scale(1.05);
+        }
+        &:disabled {
+          transition: all 0.2s;
+          background-color: rgb(173, 173, 173);
+          &:hover {
+            transition: all 0.2s;
+            background-color: rgb(114, 114, 114);
+            transform: scale(1);
+          }
         }
       }
     }

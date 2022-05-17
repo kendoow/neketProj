@@ -35,10 +35,10 @@
       "team1": "Natus Vincer",
       "team2": "Natus Vincer123",
       "check": "1:2",
-      "time": "12:00123",
+      "time": "12:00",
       "tournament": "Fragleague Season 8",
-      "timeLeft": "562349",
-      "type": "unpublished"
+      "timeLeft": "Live",
+      "type": "upcoming"
     },
     {
       "id": "3",
@@ -48,8 +48,8 @@
       "check": "1:2",
       "time": "12:00",
       "tournament": "Fragleague Season 8",
-      "timeLeft": "5434",
-      "type": "upcoming"
+      "timeLeft": "20354",
+      "type": "unpublished"
     },
     {
       "id": "4",

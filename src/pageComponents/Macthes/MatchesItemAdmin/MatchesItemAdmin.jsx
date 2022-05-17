@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import { useState, useEffect } from 'react';
 
 import { useSelector } from "react-redux";
 import { useActions } from "../../../hooks/UseActions";
@@ -39,7 +40,23 @@ const MatchesItemAdmin = ({
   const handleSelectedMatch = (match) => {
     matchesSelected(match)
   }
-  
+
+  // Таймер
+  const [Time, setTime] = useState(+timeLeft)
+  const LeftTime = {
+    h: Math.floor(Time / (3600)),
+    m: Math.floor(Time / 60) - Math.floor(Time / (3600)) * 60,
+    s: Time - (Math.floor(Time / 60) - Math.floor(Time / (3600)) * 60) * 60 - Math.floor(Time / (3600)) * 3600,
+  }  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(Time - 1)
+    }, 1000)
+    return () => {
+      clearInterval(interval)
+    }
+  }, [Time])
+
   return (
     <div className={styles.Container}>
       <div className={styles.Title}>
@@ -55,9 +72,9 @@ const MatchesItemAdmin = ({
           <div className={styles.DateText}>{tournament}</div>
         </div>
         <div className={styles.Сheck}>{check}</div>
-        <div className={timeLeft !== "Live" ? styles.TimeLeft : styles.Time}>
-          {timeLeft}
-        </div>
+        {timeLeft !== 'Live' 
+                  ? <div className={styles.TimeLeft}>{LeftTime.h}h:{LeftTime.m}:m{LeftTime.s}:s</div> 
+                  : <div className={styles.Time}>{timeLeft}</div> }
       </div>
       <div className={styles.BlockTeam}>
         <img src={teamImg} alt="" />

@@ -44,10 +44,7 @@
             transition: all 0.3s ease-in-out;
         }
         .BtnActive {
-            background-color: gray;
-            path {
-                fill: green;
-            }
+            filter: invert(75%);
         }
         .BtnItem:hover {
             transform: scale(1.1);

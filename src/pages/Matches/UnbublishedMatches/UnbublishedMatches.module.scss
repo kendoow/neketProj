@@ -2,18 +2,20 @@
     margin: 0 calc(50% - 700px);
     display: grid;
     gap: 50px;
-
+    margin: 50px 0;
     .Btn {
         padding: 20px;
         background-color: #fff;
+        border-radius: 10px;
+        font-weight: 600;
+        border: solid 3px rgb(57, 40, 41);
         color: #181818;
         font-size: 32px;
         line-height: 38px;
         justify-self: center;
-        margin-top: 50px;
         transition: all 0.3s ease-in-out;
     }
     .Btn:hover {
-        transform: scale(1.1)
+        transform: scale(1.05)
     }
 }
