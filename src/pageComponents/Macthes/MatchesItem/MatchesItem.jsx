@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import styles from './MatchesItem.module.scss';
 
 import teamImg from '../../../assets/Matches/team.svg';
@@ -11,9 +13,25 @@ const MatchesItem = ({id,
                       tournament, 
                       timeLeft,
                     }) => {
+  
+  const [Time, setTime] = useState(+timeLeft)
+  const LeftTime = {
+    h: Math.floor(Time / (3600)),
+    m: Math.floor(Time / 60) - Math.floor(Time / (3600)) * 60,
+    s: Time - (Math.floor(Time / 60) - Math.floor(Time / (3600)) * 60) * 60 - Math.floor(Time / (3600)) * 3600,
+  }  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(Time - 1)
+    }, 1000)
+    return () => {
+      clearInterval(interval)
+    }
+  }, [Time])
+
   return (
     <div className={styles.Container}>
-        <div className={styles.Title}>{title} - {id}</div>
+        <div className={styles.Title}>{title}</div>
         <div className={styles.BlockTeam}>
           <img src={teamImg} alt="" />
           <div className={styles.Name}>{team1}</div>
@@ -26,7 +44,7 @@ const MatchesItem = ({id,
           <div className={styles.Сheck}>{check}</div>
           <div className={timeLeft !== 'Live' 
                                    ? styles.TimeLeft  
-                                   : styles.Time}>{timeLeft}</div>
+                                   : styles.Time}>{LeftTime.h}h:{LeftTime.m}:m{LeftTime.s}:s</div>
         </div>
         <div className={styles.BlockTeam}>
           <img src={teamImg} alt="" />
