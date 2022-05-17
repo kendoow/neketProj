@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useActions } from "../../hooks/UseActions";
 import { useSelector } from "react-redux";
@@ -8,7 +9,6 @@ import NewsItem from "../../pageComponents/Main/NewsItem/NewsItem";
 import styles from "./Main.module.scss";
 
 import icon from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
 
 const Main = () => {
   const [search, setSearch] = useState('')
@@ -18,6 +18,7 @@ const Main = () => {
 
   useEffect(() => {
     mainFetch()
+    window.scrollTo(0, 0)
   }, [])
   
   useEffect(() => {
@@ -48,7 +49,7 @@ const Main = () => {
                      date={item.date}
                      tags={item.tags}
                      descr = {item.description}
-                     img={icon}/>
+                     img={item.img}/>
                   ))
                   : null}
           </div>
@@ -66,7 +67,7 @@ const Main = () => {
                  date={item.date}
                  tags={item.tags}
                  descr={item.description}
-                 img={icon}/>
+                 img={item.img}/>
               ))
               : null}
         </div>

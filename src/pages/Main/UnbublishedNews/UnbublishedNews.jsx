@@ -23,7 +23,7 @@ const UnbublishedNews = () => {
              title={i.title}
              date={i.date}
              tags={i.tags}
-             img={logo}
+             img={i.img}
              type={i.type}
              description={i.description}/>
           ))

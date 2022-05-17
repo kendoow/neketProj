@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
         </div>
       </div>
       <div className={styles.Body}>{children}</div>
-      <div className={styles.Footer}>Сделано Абобусом Абобовичем</div>
+      <div className={styles.Footer}>Copyrighted Cyber</div>
     </div>
   );
 };

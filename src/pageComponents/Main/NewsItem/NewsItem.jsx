@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 import Modal from '../../../components/Modal/Modal'
+import useImage from "../../../hooks/useImage";
 
 import styles from "./NewsItem.module.scss";
 
 const NewsItem = ({ title, date, tags, img, descr }) => {
   const [modalActive, setModalActive] = useState(false);
-
+  const {image} = useImage(img)
   return (
     <>
       <div onClick={() => setModalActive(true)} className={styles.container}>
@@ -24,13 +25,13 @@ const NewsItem = ({ title, date, tags, img, descr }) => {
           </div>
         </div>
         <div className={styles.img}>
-          <img src={img} alt="icon" />
+          <img className={styles.Image} src={image} alt="icon" />
         </div>
       </div>
       <Modal active={modalActive} setActive={setModalActive}>
         <div className={styles.modal}>
           <div className={styles.title}>{title}</div>
-          <img src={img} alt="icon" />
+          <img className={styles.Image} src={image} alt="icon" />
           <div className={styles.descr}>{descr}</div>
           <div className={styles.date}>
             Дата публикации: <span>{date}</span>

@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import useImage from "../../../hooks/useImage";
 
 import styles from "./GamesInfo.module.scss";
 
@@ -10,18 +11,23 @@ const GamesInfo = () => {
     date,
     category,
     description,
-    OS,
+    OC,
     CPU,
     RAM,
     VideoCard,
     Disk,
+    bgImg,
   } = useSelector((state) => state.games.selectedGame);
-
+  const {image} = useImage(bgImg)
+  
   return (
     <div className={styles.Container}>
+      <div className={styles.BlockImage}>
+        <img src={image} alt="" />
+      </div>
       <div className={styles.Block}>
         <div className={styles.Title}>
-          {title} - {id}
+            {title} 
         </div>
         <div className={styles.Date}>
           <span>Дата выхода:</span> {date}
@@ -37,7 +43,7 @@ const GamesInfo = () => {
         <div className={styles.Title}>Системные требования {name}</div>
         <div className={styles.BlockRequirements}>
           <div className={styles.Text}>
-            <span>ОС:</span> {OS}
+            <span>ОС:</span> {OC}
           </div>
           <div className={styles.Text}>
             <span>Процессор:</span> {CPU}
@@ -55,7 +61,7 @@ const GamesInfo = () => {
         <div className={styles.Line}></div>
         <div className={styles.BlockRequirements}>
           <div className={styles.Text}>
-            <span>ОС:</span> {OS}
+            <span>ОС:</span> {OC}
           </div>
           <div className={styles.Text}>
             <span>Процессор:</span> {CPU}

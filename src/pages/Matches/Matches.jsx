@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 
 const Matches = () => {
   const { matchesFetch } = useActions();
+  const { isAuth } = useSelector(state => state.auth)
   const { matches } = useSelector((state) => state.matches);
 
   useEffect(() => {
@@ -23,7 +24,7 @@ const Matches = () => {
       <div className={styles.MainContainer}>
         <div className={styles.BlockTitle}>
           <h3 className={styles.Title}>Проходящие матчи</h3>
-          <Link to='unpulishedmatches' className={styles.Btn}>Редактировать матчи</Link>
+          {isAuth ? <Link to='unpulishedmatches' className={styles.Btn}>Редактировать матчи</Link> : null}
         </div>
         <div className={styles.Container}>
           {matches

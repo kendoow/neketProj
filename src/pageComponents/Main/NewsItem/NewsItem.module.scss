@@ -22,12 +22,19 @@
       border-radius: 3px;
     }
   }
-  
+  .Image {
+    max-width: 500px;
+  }
   .date {
     font-weight: bold;
     span {
       font-weight: normal;
     }
+  }
+}
+.modal {
+  .Image {
+    max-width: 500px;
   }
 }
 .title {

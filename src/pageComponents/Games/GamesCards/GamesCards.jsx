@@ -15,7 +15,7 @@ const GamesCards = () => {
         {
           games.map(item => (
             <GamesCardItem 
-             img={csgo} 
+             img={item.img} 
              game={item.name}
              id={item.id}
              key={item.id}/>

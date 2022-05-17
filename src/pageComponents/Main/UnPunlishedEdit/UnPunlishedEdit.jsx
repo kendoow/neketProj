@@ -27,9 +27,10 @@ const UnPunlishedEdit = () => {
       tags: tagsValid.value,
       title: titleValid.value,
       description: descriptionValid.value,
+      type: unpublishedSelected.type,
+      img: unpublishedSelected.img,
       publishedAt: GetTime(),
     };
-    console.log(post)
     mainEdit(post); // отправляю изменения на сервер(при клике на кнопку)
   };
 

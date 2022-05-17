@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import { useActions } from '../../hooks/UseActions';
 
-import SimpleSlider from '../../components/Slider/Slider';
+
 import GamesCards from '../../pageComponents/Games/GamesCards/GamesCards';
 import GamesInfo from '../../pageComponents/Games/GamesInfo/GamesInfo';
 
@@ -24,9 +24,7 @@ const Games = () => {
         <GamesCards />
         {id ? <>
                 <GamesInfo />
-                <div className={styles.Slider}>
-                    <SimpleSlider/>
-                </div>
+                
               </>: null}
     </Layout>
   )

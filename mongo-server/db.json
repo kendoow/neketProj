@@ -1,0 +1,194 @@
+{
+  "news": [
+    {
+      "id": 2,
+      "tags": "новость 2",
+      "title": "новость 2?",
+      "description": "новость 2",
+      "type": "common",
+      "img": "Games/csBg.png",
+      "publishedAt": "May 17, 2022"
+    },
+    {
+      "tags": "Новость 3",
+      "title": "Новость 3",
+      "description": "Новость 3",
+      "type": "common",
+      "date": "May 17, 2022",
+      "id": 3,
+      "img": "Games/csBg.png"
+    },
+    {
+      "id": 4,
+      "tags": "Новость 1",
+      "title": "Новость 1",
+      "description": "Новость 1",
+      "type": "common",
+      "publishedAt": "May 17, 2022",
+      "img": "Games/csBg.png"
+    }
+  ],
+  "matches": [
+    {
+      "id": "1",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincer",
+      "team2": "Natus Vincer123",
+      "check": "1:2",
+      "time": "12:00123",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "Live",
+      "type": "passing"
+    },
+    {
+      "id": "3",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "Live",
+      "type": "upcoming"
+    },
+    {
+      "id": "4",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "1h:3m:10s",
+      "type": "passing"
+    },
+    {
+      "id": "5",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "15h:3m:14s",
+      "type": "passing"
+    },
+    {
+      "id": "6",
+      "title": "CS:GO / Четверг  / 15.05.2022",
+      "team1": "Natus Vincere",
+      "team2": "Natus Vincere",
+      "check": "1:2",
+      "time": "12:00",
+      "tournament": "Fragleague Season 8",
+      "timeLeft": "21h:6m:14s",
+      "type": "passing"
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "name": "CS:GO",
+      "title": "Counter-Strike: Global Offensive (CS:GO)",
+      "date": "21 Августа 2012",
+      "category": "Шутер от первого лица.",
+      "description": "Counter-Strike удивила всю игровую индустрию, когда ничем не примечательная модификация стала одним из самых популярных шутеров в мире почти сразу после выпуска в августе 1999 года, — говорит Даг Ломбарди из Valve. — Уже на протяжении 12 лет она продолжает быть одной из самых популярных игр в мире и возглавляет киберспортивные соревнования, а по всему миру продано более 25 миллионов игр этой серии. CS:GO обещает расширить границы заслужившего известность игрового процесса и предложить его игрокам не только на ПК, но и на консолях следующего поколения и компьютерах Mac.",
+      "OC": "Windows® 7/Vista/XP",
+      "CPU": "Intel® Core™ 2 Duo E6600 или AMD Phenom™ X3 8750",
+      "RAM": "2 ГБ ОЗУ",
+      "VideoCard": "Видеокарта с 256 МБ памяти или больше, совместимая с DirectX 9 с поддержкой Pixel Shader 3.0",
+      "Disk": "15 GB",
+      "img": "Games/csgo.svg",
+      "bgImg": "Games/csBg.png"
+    },
+    {
+      "id": "2",
+      "name": "Dota 2",
+      "title": "Dota 2",
+      "date": "21 авг. 2012",
+      "category": "Стратегия.",
+      "description": "Игра может похвастаться бесконечным разнообразием героев, способностей и предметов, благодаря чему каждый матч уникален. Любой герой может исполнять множество ролей, и для каждой нужды найдутся подходящие предметы. Здесь вас ничто не ограничивает — вы сами выбираете, какой стратегии следовать.",
+      "OC": "Windows 7 или новее",
+      "CPU": "Двухъядерный процессор с тактовой частотой 2,80 ГГц от Intel или AMD",
+      "RAM": "4 ГБ ОЗУ",
+      "VideoCard": " NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+      "Disk": "15 GB",
+      "img": "Games/dota2.svg",
+      "bgImg": "Games/dotaBg.jpg"
+    },
+    {
+      "id": "3",
+      "name": "LOL",
+      "title": "League of legends",
+      "date": "16 Ноября 2009",
+      "category": "Стратегия.",
+      "description": "Демонстрируйте мастерство на боевой арене 5x5, где важны не только индивидуальные навыки, но и командная игра. Выбирайте роль, совершенствуйте сборку и с боем прокладывайте себе путь через всю карту к вражескому нексусу. Игра бесплатна — побеждает сильнейший.",
+      "OC": "Windows 7, 8, 10",
+      "CPU": "Intel Core i3-530 / AMD A6-3650 / ARM не поддерживается",
+      "RAM": "2 ГБ ОЗУ",
+      "VideoCard": "Встроенная видеокарта NVIDIA GeForce 9600GT / AMD HD 6570 / Intel HD 4600",
+      "Disk": "16 ГБ",
+      "img": "Games/lol.svg",
+      "bgImg": "Games/lolBg.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Valorant",
+      "title": "Valorant",
+      "date": "2 Июня 2020",
+      "category": "Шутер от первого лица.",
+      "description": "Найдите свой уникальный стиль и испытайте себя на международной соревновательной сцене. Атакуйте и защищайтесь: в вашем распоряжении огромный арсенал оружия и тактических умений, но в каждом раунде у вас всего одна жизнь. Если не хотите потерять её, думайте быстрее противника. Это не просто шутер. У каждого агента в VALORANT есть свой набор полезных и смертоносных умений, которые позволяют разнообразить игровой процесс, а все карты здесь созданы для самых разных командных стратегий, ярких моментов и клатчей. Станьте примером для подражания.",
+      "OC": "Windows 7/8",
+      "CPU": "Intel Core 2 Duo E8400 (Intel), Athlon 200GE (AMD)",
+      "RAM": "4 ГБ ОЗУ",
+      "VideoCard": "Intel HD 4000 или Radeon R5 200",
+      "Disk": "1.5 ГБ",
+      "img": "Games/valorant.svg",
+      "bgImg": "Games/valorantBg.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Hearthstone",
+      "title": "Hearthstone",
+      "date": "1 Марта 2014",
+      "category": "Стратегия.",
+      "description": "Hearthstone: Heroes of Warcraft представляет собой коллекционную карточную онлайн-игру, основанную на пошаговой системе передаче ходов между оппонентами в течение матча с использованием предварительно подготовленных колод карт.",
+      "OC": "Windows® 7/Vista/XP",
+      "CPU": "Intel® Pentium® D или AMD® Athlon™ 64 X2",
+      "RAM": "3 ГБ ОЗУ",
+      "VideoCard": "NVIDIA® GeForce® 8600 GT или ATI™ Radeon™ HD 2600XT, или лучше",
+      "Disk": "3 ГБ",
+      "img": "Games/hearthstone.png",
+      "bgImg": "Games/hearstoneBg.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Apex",
+      "title": "Apex Legends",
+      "date": "4 Февраля 2019",
+      "category": "Шутер от первого лица.",
+      "description": "это многопользовательская онлайн-игра в жанре «королевская битва», которая сталкивает на одной карте до 60 игроков, действующих группами по три человека — всего до двадцати команд. Помимо этого режима есть битва на Аренах где участвуют на 1 карте до 6 игроков.",
+      "OC": "64-разрядная версия Windows 7",
+      "CPU": "Intel Core i3-6300 3,8 ГГц или AMD FX-4350 4,2 ГГц",
+      "RAM": "6 ГБ ОЗУ",
+      "VideoCard": "NVIDIA GeForce GT 640 или Radeon HD 7730",
+      "Disk": "22 ГБ",
+      "img": "Games/apex.png",
+      "bgImg": "Games/apexBg.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "login": "Admin",
+      "password": "Admin",
+      "type": "Admin"
+    },
+    {
+      "id": 2,
+      "login": "Moder",
+      "password": "Moder",
+      "type": "Moder"
+    }
+  ]
+}

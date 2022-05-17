@@ -6,9 +6,12 @@
     align-items: center;
     border-radius: 5px;
     position: relative;
-
-    .text {
-  
+    .img {
+      padding-top: 30px;
+      img {
+        max-height: 150px;
+        max-width: 150px;
+      }
     }
     .Tags {
       margin-top: 15px;

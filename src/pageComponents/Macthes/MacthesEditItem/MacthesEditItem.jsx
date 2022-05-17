@@ -188,7 +188,7 @@ const MacthesEditItem = () => {
             value={timeLeftValid.value}
           />
 
-          <Link to="/">
+          <Link to="/matches">
             <button
               disabled={isValid}
               onClick={() => EditMatch()}

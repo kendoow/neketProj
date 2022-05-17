@@ -1,7 +1,14 @@
 .Container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
     padding: 50px;
+    .BlockImage {
+        img {
+            max-width: 700px;
+        }
+    }
     .Block {
         grid-column: 2 / 3;
         border: 1px solid rgba(0, 0, 0, 0.4);

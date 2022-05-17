@@ -43,7 +43,7 @@ const MatchesItemAdmin = ({
   return (
     <div className={styles.Container}>
       <div className={styles.Title}>
-        {title} - {id}
+        {title}
       </div>
       <div className={styles.BlockTeam}>
         <img src={teamImg} alt="" />

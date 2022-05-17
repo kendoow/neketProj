@@ -1,0 +1,278 @@
+{"level":"info","message":"Created User: 1"}
+{"level":"error","message":"Error occured while create operation!"}
+{"level":"info","message":"Created User: 1"}
+{"level":"error","message":"Error occured while creating user1 operation!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 1"}
+{"level":"info","message":"Created User: 1"}
+{"level":"error","message":"Error occured while creating user1 operation!"}
+{"level":"info","message":"Created User: undefined"}
+{"level":"error","message":"Error occured while creating userundefined operation!"}
+{"level":"error","message":"User ID is invalid!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Nikitos"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"User 6282681737e5cd4db4feedbd is deleted!"}
+{"level":"info","message":"User 6282649b0e34457270de86e2 is deleted!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Nikitos"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"error","message":"Failed to update user 6282649b0e34457270de86e2"}
+{"level":"error","message":"Failed to update user 6282649b0e34457270de86e2"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"error","message":"Failed to update user 6282649b0e34457270de86e2"}
+{"level":"info","message":"User 62826e2cf16f076e1c22c437 is updated!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created News: Sperm"}
+{"level":"info","message":"Created User: cumshake"}
+{"level":"error","message":"Error occured while creating usercumshake operation!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: undefined"}
+{"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}},"password":{"kind":"required","message":"Path `password` is required.","name":"ValidatorError","path":"password","properties":{"message":"Path `password` is required.","path":"password","type":"required"}},"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"level":"error","message":"User validation failed: username: Path `username` is required., email: Path `email` is required., password: Path `password` is required.","name":"ValidationError"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"_message":"User validation failed","errors":{"id":{}},"level":"error","message":"User validation failed: id: nanoid is not defined","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"_message":"User validation failed","errors":{"_id":{}},"level":"error","message":"User validation failed: _id: nanoid is not a function","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"_message":"User validation failed","errors":{"_id":{}},"level":"error","message":"User validation failed: _id: nanoid is not a function","name":"ValidationError"}
+{"level":"info","message":"Created User: dasd"}
+{"_message":"User validation failed","errors":{"_id":{}},"level":"error","message":"User validation failed: _id: nanoid is not a function","name":"ValidationError"}
+{"level":"info","message":"Created User: dasd"}
+{"_message":"User validation failed","errors":{"_id":{}},"level":"error","message":"User validation failed: _id: nanoid is not a function","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: dasd"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Created User: 321321"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":null},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 321321"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 321321"}
+{"level":"info","message":"Created User: cumshake"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: 321321"}
+{"level":"info","message":"Created User: 321321"}
+{"level":"info","message":"Created User: 321321"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Niger"}
+{"level":"info","message":"Created User: cumshake"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"cumshake"},"level":"error"}
+{"level":"info","message":"Created User: cumshake"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"cumshake"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"3213"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Niger2"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Niger2"},"level":"error"}
+{"level":"info","message":"Created User: Olgerd"}
+{"level":"info","message":"Created User: Olgerd"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"Olgerd"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: huh"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: asas"}
+{"level":"info","message":"Created User: asas"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"asas"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created User: asas"}
+{"code":11000,"index":0,"keyPattern":{"username":1},"keyValue":{"username":"asas"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created News: Test"}
+{"_message":"News validation failed","errors":{"tags":{"kind":"string","message":"Cast to string failed for value \"[ 'tag1', 'tag2', 'tag3' ]\" (type Array) at path \"tags\"","name":"CastError","path":"tags","reason":null,"stringValue":"\"[ 'tag1', 'tag2', 'tag3' ]\"","value":["tag1","tag2","tag3"],"valueType":"Array"}},"level":"error","message":"News validation failed: tags: Cast to string failed for value \"[ 'tag1', 'tag2', 'tag3' ]\" (type Array) at path \"tags\"","name":"ValidationError"}
+{"level":"info","message":"Created News: Test"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created News: Test"}
+{"code":11000,"index":0,"keyPattern":{"title":1},"keyValue":{"title":"Test"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created News: Test"}
+{"code":11000,"index":0,"keyPattern":{"title":1},"keyValue":{"title":"Test"},"level":"error"}
+{"level":"info","message":"Created News: Test"}
+{"code":11000,"index":0,"keyPattern":{"title":1},"keyValue":{"title":"Test"},"level":"error"}
+{"level":"info","message":"Created News: Siska"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: oleg tournament"}
+{"_message":"Match validation failed","errors":{"team1_name":{"kind":"Number","message":"Cast to Number failed for value \"hui\" (type string) at path \"team1_name\"","name":"CastError","path":"team1_name","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"hui\"","value":"hui","valueType":"string"}},"level":"error","message":"Match validation failed: team1_name: Cast to Number failed for value \"hui\" (type string) at path \"team1_name\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: oleg tournament"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"News Siska are updated!"}
+{"level":"info","message":"News Siska are updated!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"error","message":"Failed to delete news!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"error","message":"Failed to delete news!"}
+{"level":"info","message":"Created News: Siska"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: not oleg tournament"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: not an nigger oleg tournament"}
+{"level":"info","message":"Created Match: not an a nigger oleg tournament"}
+{"level":"info","message":"Created Match: not an  sa nigger oleg tournament"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: not an s sa nigger oleg tournament"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"Number","message":"Cast to Number failed for value \"Match.count({})1\" (type string) at path \"id\"","name":"CastError","path":"id","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"Match.count({})1\"","value":"Match.count({})1","valueType":"string"}},"level":"error","message":"Match validation failed: id: Cast to Number failed for value \"Match.count({})1\" (type string) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: not an s sa nigger oleg tournament"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"Number","message":"Cast to Number failed for value \"function() {\\n' +\n  '    const collection = this.collection;\\n' +\n  '    const args = Array.from(arguments);\\n' +\n  '    const _this = this;\\n' +\n  '    const debug = _this &&\\n' +\n  '      _this.conn &&\\n' +\n  '      _this.conn.base &&\\n' +\n  '      _this.conn.base.options &&\\n' +\n  '      _this.conn.base.options.debug;\\n' +\n  '    const lastArg = arguments[arguments.length - 1];\\n' +\n  '    const opId = new ObjectId();\\n' +\n  '\\n' +\n  '    // If user force closed, queueing will hang forever. See #5664\\n' +\n  '    if (this.conn.$wasForceClosed) {\\n' +\n  \"      const error = new MongooseError('Connection was force closed');\\n\" +\n  '      if (args.length > 0 &&\\n' +\n  \"        typeof args[args.length - 1] === 'function') {\\n\" +\n  '        args[args.length - 1](error);\\n' +\n  '        return;\\n' +\n  '      } else {\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    let _args = args;\\n' +\n  '    let callback = null;\\n' +\n  '    if (this._shouldBufferCommands() && this.buffer) {\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg !== 'function') {\\n\" +\n  \"        throw new Error('Collection method ' + i + ' is synchronous');\\n\" +\n  '      }\\n' +\n  '\\n' +\n  \"      this.conn.emit('buffer', {\\n\" +\n  '        _id: opId,\\n' +\n  '        modelName: _this.modelName,\\n' +\n  '        collectionName: _this.name,\\n' +\n  '        method: i,\\n' +\n  '        args: args\\n' +\n  '      });\\n' +\n  '\\n' +\n  '      let callback;\\n' +\n  '      let _args = args;\\n' +\n  '      let promise = null;\\n' +\n  '      let timeout = null;\\n' +\n  '      if (syncCollectionMethods[i]) {\\n' +\n  '        this.addQueue(() => {\\n' +\n  '          lastArg.call(this, null, this[i].apply(this, _args.slice(0, _args.length - 1)));\\n' +\n  '        }, []);\\n' +\n  \"      } else if (typeof lastArg === 'function') {\\n\" +\n  '        callback = function collectionOperationCallback() {\\n' +\n  '          if (timeout != null) {\\n' +\n  '            clearTimeout(timeout);\\n' +\n  '          }\\n' +\n  '          return lastArg.apply(this, arguments);\\n' +\n  '        };\\n' +\n  '        _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '      } else {\\n' +\n  '        promise = new this.Promise((resolve, reject) => {\\n' +\n  '          callback = function collectionOperationCallback(err, res) {\\n' +\n  '            if (timeout != null) {\\n' +\n  '              clearTimeout(timeout);\\n' +\n  '            }\\n' +\n  '            if (err != null) {\\n' +\n  '              return reject(err);\\n' +\n  '            }\\n' +\n  '            resolve(res);\\n' +\n  '          };\\n' +\n  '          _args = args.concat([callback]);\\n' +\n  '          this.addQueue(i, _args);\\n' +\n  '        });\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const bufferTimeoutMS = this._getBufferTimeoutMS();\\n' +\n  '      timeout = setTimeout(() => {\\n' +\n  '        const removed = this.removeQueue(i, _args);\\n' +\n  '        if (removed) {\\n' +\n  \"          const message = 'Operation `' + this.name + '.' + i + '()` buffering timed out after ' +\\n\" +\n  \"            bufferTimeoutMS + 'ms';\\n\" +\n  '          const err = new MongooseError(message);\\n' +\n  \"          this.conn.emit('buffer-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '          callback(err);\\n' +\n  '        }\\n' +\n  '      }, bufferTimeoutMS);\\n' +\n  '\\n' +\n  \"      if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        this.addQueue(i, _args);\\n' +\n  '        return;\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      return promise;\\n' +\n  \"    } else if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '      callback = function collectionOperationCallback(err, res) {\\n' +\n  '        if (err != null) {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '        } else {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, result: res });\\n\" +\n  '        }\\n' +\n  '        return lastArg.apply(this, arguments);\\n' +\n  '      };\\n' +\n  '      _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    if (debug) {\\n' +\n  \"      if (typeof debug === 'function') {\\n\" +\n  '        debug.apply(_this,\\n' +\n  '          [_this.name, i].concat(args.slice(0, args.length - 1)));\\n' +\n  '      } else if (debug instanceof stream.Writable) {\\n' +\n  '        this.$printToStream(_this.name, i, args, debug);\\n' +\n  '      } else {\\n' +\n  '        const color = debug.color == null ? true : debug.color;\\n' +\n  '        const shell = debug.shell == null ? false : debug.shell;\\n' +\n  '        this.$print(_this.name, i, args, color, shell);\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  \"    this.conn.emit('operation-start', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, params: _args });\\n\" +\n  '\\n' +\n  '    try {\\n' +\n  '      if (collection == null) {\\n' +\n  \"        const message = 'Cannot call `' + this.name + '.' + i + '()` before initial connection ' +\\n\" +\n  \"          'is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if ' +\\n\" +\n  \"          'you have `bufferCommands = false`.';\\n\" +\n  '        throw new MongooseError(message);\\n' +\n  '      }\\n' +\n  '\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        return lastArg.call(this, null, collection[i].apply(collection, _args.slice(0, _args.length - 1)));\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const ret = collection[i].apply(collection, _args);\\n' +\n  \"      if (ret != null && typeof ret.then === 'function') {\\n\" +\n  '        return ret.then(\\n' +\n  '          res => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, result: res });\\n\" +\n  '            return res;\\n' +\n  '          },\\n' +\n  '          err => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, error: err });\\n\" +\n  '            throw err;\\n' +\n  '          }\\n' +\n  '        );\\n' +\n  '      }\\n' +\n  '      return ret;\\n' +\n  '    } catch (error) {\\n' +\n  '      // Collection operation may throw because of max bson size, catch it here\\n' +\n  '      // See gh-3906\\n' +\n  \"      if (typeof lastArg === 'function') {\\n\" +\n  '        return lastArg(error);\\n' +\n  '      } else {\\n' +\n  \"        this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, error: error });\\n\" +\n  '\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '  }1\" (type string) at path \"id\"","name":"CastError","path":"id","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"function() {\\n' +\n  '    const collection = this.collection;\\n' +\n  '    const args = Array.from(arguments);\\n' +\n  '    const _this = this;\\n' +\n  '    const debug = _this &&\\n' +\n  '      _this.conn &&\\n' +\n  '      _this.conn.base &&\\n' +\n  '      _this.conn.base.options &&\\n' +\n  '      _this.conn.base.options.debug;\\n' +\n  '    const lastArg = arguments[arguments.length - 1];\\n' +\n  '    const opId = new ObjectId();\\n' +\n  '\\n' +\n  '    // If user force closed, queueing will hang forever. See #5664\\n' +\n  '    if (this.conn.$wasForceClosed) {\\n' +\n  \"      const error = new MongooseError('Connection was force closed');\\n\" +\n  '      if (args.length > 0 &&\\n' +\n  \"        typeof args[args.length - 1] === 'function') {\\n\" +\n  '        args[args.length - 1](error);\\n' +\n  '        return;\\n' +\n  '      } else {\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    let _args = args;\\n' +\n  '    let callback = null;\\n' +\n  '    if (this._shouldBufferCommands() && this.buffer) {\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg !== 'function') {\\n\" +\n  \"        throw new Error('Collection method ' + i + ' is synchronous');\\n\" +\n  '      }\\n' +\n  '\\n' +\n  \"      this.conn.emit('buffer', {\\n\" +\n  '        _id: opId,\\n' +\n  '        modelName: _this.modelName,\\n' +\n  '        collectionName: _this.name,\\n' +\n  '        method: i,\\n' +\n  '        args: args\\n' +\n  '      });\\n' +\n  '\\n' +\n  '      let callback;\\n' +\n  '      let _args = args;\\n' +\n  '      let promise = null;\\n' +\n  '      let timeout = null;\\n' +\n  '      if (syncCollectionMethods[i]) {\\n' +\n  '        this.addQueue(() => {\\n' +\n  '          lastArg.call(this, null, this[i].apply(this, _args.slice(0, _args.length - 1)));\\n' +\n  '        }, []);\\n' +\n  \"      } else if (typeof lastArg === 'function') {\\n\" +\n  '        callback = function collectionOperationCallback() {\\n' +\n  '          if (timeout != null) {\\n' +\n  '            clearTimeout(timeout);\\n' +\n  '          }\\n' +\n  '          return lastArg.apply(this, arguments);\\n' +\n  '        };\\n' +\n  '        _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '      } else {\\n' +\n  '        promise = new this.Promise((resolve, reject) => {\\n' +\n  '          callback = function collectionOperationCallback(err, res) {\\n' +\n  '            if (timeout != null) {\\n' +\n  '              clearTimeout(timeout);\\n' +\n  '            }\\n' +\n  '            if (err != null) {\\n' +\n  '              return reject(err);\\n' +\n  '            }\\n' +\n  '            resolve(res);\\n' +\n  '          };\\n' +\n  '          _args = args.concat([callback]);\\n' +\n  '          this.addQueue(i, _args);\\n' +\n  '        });\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const bufferTimeoutMS = this._getBufferTimeoutMS();\\n' +\n  '      timeout = setTimeout(() => {\\n' +\n  '        const removed = this.removeQueue(i, _args);\\n' +\n  '        if (removed) {\\n' +\n  \"          const message = 'Operation `' + this.name + '.' + i + '()` buffering timed out after ' +\\n\" +\n  \"            bufferTimeoutMS + 'ms';\\n\" +\n  '          const err = new MongooseError(message);\\n' +\n  \"          this.conn.emit('buffer-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '          callback(err);\\n' +\n  '        }\\n' +\n  '      }, bufferTimeoutMS);\\n' +\n  '\\n' +\n  \"      if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        this.addQueue(i, _args);\\n' +\n  '        return;\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      return promise;\\n' +\n  \"    } else if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '      callback = function collectionOperationCallback(err, res) {\\n' +\n  '        if (err != null) {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '        } else {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, result: res });\\n\" +\n  '        }\\n' +\n  '        return lastArg.apply(this, arguments);\\n' +\n  '      };\\n' +\n  '      _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    if (debug) {\\n' +\n  \"      if (typeof debug === 'function') {\\n\" +\n  '        debug.apply(_this,\\n' +\n  '          [_this.name, i].concat(args.slice(0, args.length - 1)));\\n' +\n  '      } else if (debug instanceof stream.Writable) {\\n' +\n  '        this.$printToStream(_this.name, i, args, debug);\\n' +\n  '      } else {\\n' +\n  '        const color = debug.color == null ? true : debug.color;\\n' +\n  '        const shell = debug.shell == null ? false : debug.shell;\\n' +\n  '        this.$print(_this.name, i, args, color, shell);\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  \"    this.conn.emit('operation-start', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, params: _args });\\n\" +\n  '\\n' +\n  '    try {\\n' +\n  '      if (collection == null) {\\n' +\n  \"        const message = 'Cannot call `' + this.name + '.' + i + '()` before initial connection ' +\\n\" +\n  \"          'is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if ' +\\n\" +\n  \"          'you have `bufferCommands = false`.';\\n\" +\n  '        throw new MongooseError(message);\\n' +\n  '      }\\n' +\n  '\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        return lastArg.call(this, null, collection[i].apply(collection, _args.slice(0, _args.length - 1)));\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const ret = collection[i].apply(collection, _args);\\n' +\n  \"      if (ret != null && typeof ret.then === 'function') {\\n\" +\n  '        return ret.then(\\n' +\n  '          res => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, result: res });\\n\" +\n  '            return res;\\n' +\n  '          },\\n' +\n  '          err => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, error: err });\\n\" +\n  '            throw err;\\n' +\n  '          }\\n' +\n  '        );\\n' +\n  '      }\\n' +\n  '      return ret;\\n' +\n  '    } catch (error) {\\n' +\n  '      // Collection operation may throw because of max bson size, catch it here\\n' +\n  '      // See gh-3906\\n' +\n  \"      if (typeof lastArg === 'function') {\\n\" +\n  '        return lastArg(error);\\n' +\n  '      } else {\\n' +\n  \"        this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, error: error });\\n\" +\n  '\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '  }1\"","value":"function() {\n    const collection = this.collection;\n    const args = Array.from(arguments);\n    const _this = this;\n    const debug = _this &&\n      _this.conn &&\n      _this.conn.base &&\n      _this.conn.base.options &&\n      _this.conn.base.options.debug;\n    const lastArg = arguments[arguments.length - 1];\n    const opId = new ObjectId();\n\n    // If user force closed, queueing will hang forever. See #5664\n    if (this.conn.$wasForceClosed) {\n      const error = new MongooseError('Connection was force closed');\n      if (args.length > 0 &&\n        typeof args[args.length - 1] === 'function') {\n        args[args.length - 1](error);\n        return;\n      } else {\n        throw error;\n      }\n    }\n\n    let _args = args;\n    let callback = null;\n    if (this._shouldBufferCommands() && this.buffer) {\n      if (syncCollectionMethods[i] && typeof lastArg !== 'function') {\n        throw new Error('Collection method ' + i + ' is synchronous');\n      }\n\n      this.conn.emit('buffer', {\n        _id: opId,\n        modelName: _this.modelName,\n        collectionName: _this.name,\n        method: i,\n        args: args\n      });\n\n      let callback;\n      let _args = args;\n      let promise = null;\n      let timeout = null;\n      if (syncCollectionMethods[i]) {\n        this.addQueue(() => {\n          lastArg.call(this, null, this[i].apply(this, _args.slice(0, _args.length - 1)));\n        }, []);\n      } else if (typeof lastArg === 'function') {\n        callback = function collectionOperationCallback() {\n          if (timeout != null) {\n            clearTimeout(timeout);\n          }\n          return lastArg.apply(this, arguments);\n        };\n        _args = args.slice(0, args.length - 1).concat([callback]);\n      } else {\n        promise = new this.Promise((resolve, reject) => {\n          callback = function collectionOperationCallback(err, res) {\n            if (timeout != null) {\n              clearTimeout(timeout);\n            }\n            if (err != null) {\n              return reject(err);\n            }\n            resolve(res);\n          };\n          _args = args.concat([callback]);\n          this.addQueue(i, _args);\n        });\n      }\n\n      const bufferTimeoutMS = this._getBufferTimeoutMS();\n      timeout = setTimeout(() => {\n        const removed = this.removeQueue(i, _args);\n        if (removed) {\n          const message = 'Operation `' + this.name + '.' + i + '()` buffering timed out after ' +\n            bufferTimeoutMS + 'ms';\n          const err = new MongooseError(message);\n          this.conn.emit('buffer-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\n          callback(err);\n        }\n      }, bufferTimeoutMS);\n\n      if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\n        this.addQueue(i, _args);\n        return;\n      }\n\n      return promise;\n    } else if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\n      callback = function collectionOperationCallback(err, res) {\n        if (err != null) {\n          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\n        } else {\n          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, result: res });\n        }\n        return lastArg.apply(this, arguments);\n      };\n      _args = args.slice(0, args.length - 1).concat([callback]);\n    }\n\n    if (debug) {\n      if (typeof debug === 'function') {\n        debug.apply(_this,\n          [_this.name, i].concat(args.slice(0, args.length - 1)));\n      } else if (debug instanceof stream.Writable) {\n        this.$printToStream(_this.name, i, args, debug);\n      } else {\n        const color = debug.color == null ? true : debug.color;\n        const shell = debug.shell == null ? false : debug.shell;\n        this.$print(_this.name, i, args, color, shell);\n      }\n    }\n\n    this.conn.emit('operation-start', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, params: _args });\n\n    try {\n      if (collection == null) {\n        const message = 'Cannot call `' + this.name + '.' + i + '()` before initial connection ' +\n          'is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if ' +\n          'you have `bufferCommands = false`.';\n        throw new MongooseError(message);\n      }\n\n      if (syncCollectionMethods[i] && typeof lastArg === 'function') {\n        return lastArg.call(this, null, collection[i].apply(collection, _args.slice(0, _args.length - 1)));\n      }\n\n      const ret = collection[i].apply(collection, _args);\n      if (ret != null && typeof ret.then === 'function') {\n        return ret.then(\n          res => {\n            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, result: res });\n            return res;\n          },\n          err => {\n            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, error: err });\n            throw err;\n          }\n        );\n      }\n      return ret;\n    } catch (error) {\n      // Collection operation may throw because of max bson size, catch it here\n      // See gh-3906\n      if (typeof lastArg === 'function') {\n        return lastArg(error);\n      } else {\n        this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, error: error });\n\n        throw error;\n      }\n    }\n  }1","valueType":"string"}},"level":"error","message":"Match validation failed: id: Cast to Number failed for value \"function() {\\n' +\n  '    const collection = this.collection;\\n' +\n  '    const args = Array.from(arguments);\\n' +\n  '    const _this = this;\\n' +\n  '    const debug = _this &&\\n' +\n  '      _this.conn &&\\n' +\n  '      _this.conn.base &&\\n' +\n  '      _this.conn.base.options &&\\n' +\n  '      _this.conn.base.options.debug;\\n' +\n  '    const lastArg = arguments[arguments.length - 1];\\n' +\n  '    const opId = new ObjectId();\\n' +\n  '\\n' +\n  '    // If user force closed, queueing will hang forever. See #5664\\n' +\n  '    if (this.conn.$wasForceClosed) {\\n' +\n  \"      const error = new MongooseError('Connection was force closed');\\n\" +\n  '      if (args.length > 0 &&\\n' +\n  \"        typeof args[args.length - 1] === 'function') {\\n\" +\n  '        args[args.length - 1](error);\\n' +\n  '        return;\\n' +\n  '      } else {\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    let _args = args;\\n' +\n  '    let callback = null;\\n' +\n  '    if (this._shouldBufferCommands() && this.buffer) {\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg !== 'function') {\\n\" +\n  \"        throw new Error('Collection method ' + i + ' is synchronous');\\n\" +\n  '      }\\n' +\n  '\\n' +\n  \"      this.conn.emit('buffer', {\\n\" +\n  '        _id: opId,\\n' +\n  '        modelName: _this.modelName,\\n' +\n  '        collectionName: _this.name,\\n' +\n  '        method: i,\\n' +\n  '        args: args\\n' +\n  '      });\\n' +\n  '\\n' +\n  '      let callback;\\n' +\n  '      let _args = args;\\n' +\n  '      let promise = null;\\n' +\n  '      let timeout = null;\\n' +\n  '      if (syncCollectionMethods[i]) {\\n' +\n  '        this.addQueue(() => {\\n' +\n  '          lastArg.call(this, null, this[i].apply(this, _args.slice(0, _args.length - 1)));\\n' +\n  '        }, []);\\n' +\n  \"      } else if (typeof lastArg === 'function') {\\n\" +\n  '        callback = function collectionOperationCallback() {\\n' +\n  '          if (timeout != null) {\\n' +\n  '            clearTimeout(timeout);\\n' +\n  '          }\\n' +\n  '          return lastArg.apply(this, arguments);\\n' +\n  '        };\\n' +\n  '        _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '      } else {\\n' +\n  '        promise = new this.Promise((resolve, reject) => {\\n' +\n  '          callback = function collectionOperationCallback(err, res) {\\n' +\n  '            if (timeout != null) {\\n' +\n  '              clearTimeout(timeout);\\n' +\n  '            }\\n' +\n  '            if (err != null) {\\n' +\n  '              return reject(err);\\n' +\n  '            }\\n' +\n  '            resolve(res);\\n' +\n  '          };\\n' +\n  '          _args = args.concat([callback]);\\n' +\n  '          this.addQueue(i, _args);\\n' +\n  '        });\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const bufferTimeoutMS = this._getBufferTimeoutMS();\\n' +\n  '      timeout = setTimeout(() => {\\n' +\n  '        const removed = this.removeQueue(i, _args);\\n' +\n  '        if (removed) {\\n' +\n  \"          const message = 'Operation `' + this.name + '.' + i + '()` buffering timed out after ' +\\n\" +\n  \"            bufferTimeoutMS + 'ms';\\n\" +\n  '          const err = new MongooseError(message);\\n' +\n  \"          this.conn.emit('buffer-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '          callback(err);\\n' +\n  '        }\\n' +\n  '      }, bufferTimeoutMS);\\n' +\n  '\\n' +\n  \"      if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        this.addQueue(i, _args);\\n' +\n  '        return;\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      return promise;\\n' +\n  \"    } else if (!syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '      callback = function collectionOperationCallback(err, res) {\\n' +\n  '        if (err != null) {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, error: err });\\n\" +\n  '        } else {\\n' +\n  \"          _this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: _this.name, method: i, result: res });\\n\" +\n  '        }\\n' +\n  '        return lastArg.apply(this, arguments);\\n' +\n  '      };\\n' +\n  '      _args = args.slice(0, args.length - 1).concat([callback]);\\n' +\n  '    }\\n' +\n  '\\n' +\n  '    if (debug) {\\n' +\n  \"      if (typeof debug === 'function') {\\n\" +\n  '        debug.apply(_this,\\n' +\n  '          [_this.name, i].concat(args.slice(0, args.length - 1)));\\n' +\n  '      } else if (debug instanceof stream.Writable) {\\n' +\n  '        this.$printToStream(_this.name, i, args, debug);\\n' +\n  '      } else {\\n' +\n  '        const color = debug.color == null ? true : debug.color;\\n' +\n  '        const shell = debug.shell == null ? false : debug.shell;\\n' +\n  '        this.$print(_this.name, i, args, color, shell);\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '\\n' +\n  \"    this.conn.emit('operation-start', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, params: _args });\\n\" +\n  '\\n' +\n  '    try {\\n' +\n  '      if (collection == null) {\\n' +\n  \"        const message = 'Cannot call `' + this.name + '.' + i + '()` before initial connection ' +\\n\" +\n  \"          'is complete if `bufferCommands = false`. Make sure you `await mongoose.connect()` if ' +\\n\" +\n  \"          'you have `bufferCommands = false`.';\\n\" +\n  '        throw new MongooseError(message);\\n' +\n  '      }\\n' +\n  '\\n' +\n  \"      if (syncCollectionMethods[i] && typeof lastArg === 'function') {\\n\" +\n  '        return lastArg.call(this, null, collection[i].apply(collection, _args.slice(0, _args.length - 1)));\\n' +\n  '      }\\n' +\n  '\\n' +\n  '      const ret = collection[i].apply(collection, _args);\\n' +\n  \"      if (ret != null && typeof ret.then === 'function') {\\n\" +\n  '        return ret.then(\\n' +\n  '          res => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, result: res });\\n\" +\n  '            return res;\\n' +\n  '          },\\n' +\n  '          err => {\\n' +\n  \"            this.conn.emit('operation-end', { _id: opId, modelName: this.modelName, collectionName: this.name, method: i, error: err });\\n\" +\n  '            throw err;\\n' +\n  '          }\\n' +\n  '        );\\n' +\n  '      }\\n' +\n  '      return ret;\\n' +\n  '    } catch (error) {\\n' +\n  '      // Collection operation may throw because of max bson size, catch it here\\n' +\n  '      // See gh-3906\\n' +\n  \"      if (typeof lastArg === 'function') {\\n\" +\n  '        return lastArg(error);\\n' +\n  '      } else {\\n' +\n  \"        this.conn.emit('operation-end', { _id: opId, modelName: _this.modelName, collectionName: this.name, method: i, error: error });\\n\" +\n  '\\n' +\n  '        throw error;\\n' +\n  '      }\\n' +\n  '    }\\n' +\n  '  }1\" (type string) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: not an s sa nigger oleg tournament"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 1"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 2"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 3"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 4"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 5"}
+{"level":"info","message":2}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 5"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"Number","message":"Cast to Number failed for value \"NaN\" (type number) at path \"id\"","name":"CastError","path":"id","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"NaN\"","value":null,"valueType":"number"}},"level":"error","message":"Match validation failed: id: Cast to Number failed for value \"NaN\" (type number) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"number"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 1"}
+{"level":"info","message":"Created Match: tour 2"}
+{"code":11000,"index":0,"keyPattern":{"id":1},"keyValue":{"id":"NaN"},"level":"error"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 2"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 2"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"Number","message":"Cast to Number failed for value \"Match.estimatedDocumentCount()1\" (type string) at path \"id\"","name":"CastError","path":"id","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"Match.estimatedDocumentCount()1\"","value":"Match.estimatedDocumentCount()1","valueType":"string"}},"level":"error","message":"Match validation failed: id: Cast to Number failed for value \"Match.estimatedDocumentCount()1\" (type string) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 3"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"Number","message":"Cast to Number failed for value \"{}\" (type Object) at path \"id\"","name":"CastError","path":"id","reason":{"actual":false,"code":"ERR_ASSERTION","expected":true,"generatedMessage":true,"operator":"=="},"stringValue":"\"{}\"","value":{},"valueType":"Object"}},"level":"error","message":"Match validation failed: id: Cast to Number failed for value \"{}\" (type Object) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 3"}
+{"_message":"Match validation failed","errors":{"id":{"kind":"string","message":"Cast to string failed for value \"{}\" (type Object) at path \"id\"","name":"CastError","path":"id","reason":null,"stringValue":"\"{}\"","value":{},"valueType":"Object"}},"level":"error","message":"Match validation failed: id: Cast to string failed for value \"{}\" (type Object) at path \"id\"","name":"ValidationError"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created Match: tour 1"}
+{"level":"info","message":"Created Match: tour 1"}
+{"level":"info","message":"Created Match: tour 1"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Match 1 is updated!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Match 1 is updated!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Match 1 is deleted!"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"error","message":"Error:!MongooseServerSelectionError: connect ECONNREFUSED ::1:27017"}
+{"level":"error","message":"Error:!MongooseServerSelectionError: connect ECONNREFUSED ::1:27017"}
+{"level":"error","message":"Error:!MongooseServerSelectionError: connect ECONNREFUSED ::1:27017"}
+{"level":"error","message":"Error:!MongooseServerSelectionError: connect ECONNREFUSED ::1:27017"}
+{"level":"error","message":"Error:!MongooseServerSelectionError: connect ECONNREFUSED ::1:27017"}
+{"level":"info","message":"Connected to MONGODB server"}
+{"level":"info","message":"Created News: Siska"}

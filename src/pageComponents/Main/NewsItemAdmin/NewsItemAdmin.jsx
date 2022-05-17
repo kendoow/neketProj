@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { useActions } from "../../../hooks/UseActions";
 
 import styles from "./NewsItemAdmin.module.scss";
@@ -8,15 +7,16 @@ import styles from "./NewsItemAdmin.module.scss";
 import aproveIcon from "../../../assets/icons/aproveIcon.svg";
 import deleteIcon from "../../../assets/icons/deleteIcon.png";
 import editIcon from "../../../assets/icons/editIcon.svg";
+import useImage from "../../../hooks/useImage";
 
 
 const NewsItemAdmin = ({ title, date, tags, img, id, type, description }) => {
   const { mainDelete, mainType, mainSelected } = useActions();
   const { auth } = useSelector((state) => state);
   const { news } = useSelector((state) => state.main);
-  useEffect(() => {
+  const navigate = useNavigate();
+  const {image} = useImage(img)
     
-  }, [])
   const post = {
     title: title,
     date: date,
@@ -24,7 +24,7 @@ const NewsItemAdmin = ({ title, date, tags, img, id, type, description }) => {
     id: id,
     type: type,
     description: description,
-    // img: img,
+    img: img, 
   }
   const hadleSelectPost = (post) => {
     mainSelected(post)
@@ -46,7 +46,7 @@ const NewsItemAdmin = ({ title, date, tags, img, id, type, description }) => {
         </div>
       </div>
       <div className={styles.img}>
-        <img src={img} alt="icon" />
+        <img src={image} alt="icon" />
       </div>
       <div className={styles.BlockBtn}>
         {auth.type === "Admin" ? (
@@ -58,7 +58,10 @@ const NewsItemAdmin = ({ title, date, tags, img, id, type, description }) => {
             src={aproveIcon}
             alt=""
             onClick={() => {
-              mainType(news, id, "reccomended");
+              if (type === 'unpublished') {
+                navigate("/");
+              }
+              mainType(news, id, "common");
             }}
           />
         ) : null}
