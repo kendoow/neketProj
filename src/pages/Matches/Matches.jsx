@@ -29,7 +29,7 @@ const Matches = () => {
         <div className={styles.Container}>
           {matches
             ? matches
-                .filter((i) => i.type === "upcoming")
+                .filter((i) => i.timeLeft === "Live")
                 .map((item) => (
                   <MatchesItem
                     key={item.id}
@@ -49,7 +49,7 @@ const Matches = () => {
         <div className={styles.Container}>
           {matches
             ? matches
-                .filter((i) => i.type === "passing")
+                .filter((i) => i.timeLeft !== 'Live')
                 .map((item) => (
                   <MatchesItem
                     key={item.id}

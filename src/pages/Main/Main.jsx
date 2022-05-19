@@ -30,7 +30,7 @@ const Main = () => {
       <div className={styles.Container}>
         <div className={styles.news}>
           <div className={styles.newsHeader}>
-            <h3>Рекомендованные новости</h3>
+            <h3>Поиск новостей:</h3>
             <input 
              type="text" 
              placeholder="Поиск..."
@@ -38,20 +38,6 @@ const Main = () => {
              onChange={(e) => {
                setSearch(e.target.value)
              }} />
-          </div>
-          <div className={styles.NewsItems}>
-           
-            {filterNews.length 
-                  ? filterNews.filter(item => item.type === 'reccomended').map(item => (
-                    <NewsItem 
-                     key={item.id}
-                     title={item.title}
-                     date={item.date}
-                     tags={item.tags}
-                     descr = {item.description}
-                     img={item.img}/>
-                  ))
-                  : null}
           </div>
         </div>
         <div className={styles.newsHeader}>

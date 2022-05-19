@@ -4,14 +4,15 @@
     .news {
         &Header{
             margin: 0 calc(50% - 600px);
-            display: flex;
+            display: grid;
+            grid-auto-flow: column;
             align-items: center;
             justify-content: space-between;
             h3{
                 font-size: 26px;
             }
             input {
-                font-size: 26px;
+                font-size: 22px;
             }
             .unpublished{
                 font-size: 24px;

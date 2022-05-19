@@ -37,8 +37,8 @@
       "check": "1:2",
       "time": "12:00",
       "tournament": "Fragleague Season 8",
-      "timeLeft": "Live",
-      "type": "upcoming"
+      "timeLeft": "30",
+      "type": "unpublished"
     },
     {
       "id": "3",
@@ -48,7 +48,7 @@
       "check": "1:2",
       "time": "12:00",
       "tournament": "Fragleague Season 8",
-      "timeLeft": "20354",
+      "timeLeft": "Live",
       "type": "unpublished"
     },
     {
@@ -59,8 +59,8 @@
       "check": "1:2",
       "time": "12:00",
       "tournament": "Fragleague Season 8",
-      "timeLeft": "1000",
-      "type": "passing"
+      "timeLeft": "Live",
+      "type": "unpublished"
     },
     {
       "id": "5",
